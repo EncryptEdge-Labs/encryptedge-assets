@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="22">
+  <rect width="130" height="22" rx="4" fill="#0F6E56"/>
+  <text x="65" y="15" font-family="Arial,sans-serif" font-size="11"
+        font-weight="bold" fill="white" text-anchor="middle">✓ VERIFIED</text>
+</svg>
