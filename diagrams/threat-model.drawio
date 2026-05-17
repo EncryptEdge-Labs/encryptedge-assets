@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel>
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+    <mxCell id="2" value="External Attacker" style="shape=mxgraph.threat.actor;fillColor=#C0392B;fontColor=#ffffff;strokeColor=#C0392B;" vertex="1" parent="1">
+      <mxGeometry x="40" y="160" width="60" height="80" as="geometry"/>
+    </mxCell>
+    <mxCell id="3" value="Entry Point" style="rounded=1;fillColor=#D4861A;fontColor=#ffffff;strokeColor=#D4861A;" vertex="1" parent="1">
+      <mxGeometry x="180" y="175" width="120" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="4" value="Target Asset" style="rounded=1;fillColor=#1B2A4A;fontColor=#ffffff;strokeColor=#1B2A4A;" vertex="1" parent="1">
+      <mxGeometry x="400" y="175" width="120" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="5" value="Impact" style="rounded=1;fillColor=#C0392B;fontColor=#ffffff;strokeColor=#C0392B;" vertex="1" parent="1">
+      <mxGeometry x="600" y="175" width="120" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="2" target="3" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="7" value="Exploit" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="3" target="4" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="8" value="Result" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="4" target="5" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="9" value="Threat Model — [Task Title]&#xa;Intern: [Name] | Track: [Track] | Date: [YYYY-MM-DD]" style="text;html=1;align=center;fontStyle=1;fontSize=14;fontColor=#1B2A4A;" vertex="1" parent="1">
+      <mxGeometry x="40" y="40" width="700" height="60" as="geometry"/>
+    </mxCell>
+  </root>
+</mxGraphModel>
